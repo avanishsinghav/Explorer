@@ -1,6 +1,8 @@
 # GitHub Explorer
 
-## GitHub Explorer is a React-based web application that allows users to search for GitHub profiles and view their repositories. The app uses the GitHub API to fetch users and repository data in real time.
+GitHub Explorer is a React-based web application that allows users to search for GitHub profiles and view their repositories. The app uses the GitHub API to fetch users and repository data in real time.
+
+---
 
 ## Features
 
