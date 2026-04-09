@@ -1,16 +1,62 @@
-# React + Vite
+# GitHub Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## GitHub Explorer is a React-based web application that allows users to search for GitHub profiles and view their repositories. The app uses the GitHub API to fetch users and repository data in real time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search GitHub users by username
+- View user profile information
+- Click a user to view their repositories
+- Sort repositories by stars or forks
+- Debounced search input to reduce unnecessary API calls
+- Responsive and clean UI using Tailwind CSS
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- GitHub REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Structure
+
+```
+src
+│
+├── Component
+│ ├── Navbar.jsx
+│ ├── SearchBar.jsx
+│ ├── UserList.jsx
+│ └── RepoList.jsx
+│
+├── App.js
+└── main.jsx
+```
+
+---
+
+## Key Concepts Used
+
+- React Hooks (`useState`, `useEffect`)
+- Debouncing using `setTimeout`
+- Conditional Rendering
+- API Fetching
+- Component-based architecture
+
+---
+
+## Future Improvements
+
+- Add dark mode
+- Add pagination for users
+- Show more user profile details
+
+---
+
+## Author
+
+Avanish Singh
